@@ -1,0 +1,63 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  color: black;
+  background-color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.Header{
+
+}
+.logo {
+  display:  block;
+  height: 200px;
+  margin-left : auto;
+  margin-right: auto;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  display: inline- block;
+  font-size: 13px
+}
+
+#VR_SOL_RENO_DESIGN {display:none;}
+#VR_SOL_RENO_FE_MAC {display:none;}
+#VR_SOL_RENO_FE_MAC_SOL_SIMU {display:none;}
+#VR_SOL_RENO_FE_MAC_SOL_SOMFY {display:none;}
+#VR_SOL_RENO_LUCE {display:none;}
+#VR_SOL_RENO_SOL_DESIGN {display:none;}
+#VR_SOL_TRADI_CLASSIC_FF {display:none;}
+#VR_SOL_TRADI_CLASSIC_SOL_FF {display:none;}
+#VR_SOL_TRADI_CLASSIC_SOL_FX {display:none;}
+#VR_SOL_TRADI_COFFRE_SEUL {display:none;}
+#VR_SOL_TRADI_RAPIDE_MAC {display:none;}
+#VR_SOL_TRADI_RAPIDE_SOL_MAC {display:none;}
+#VR_SOL_TRADI_VER_MAC {display:none;}
+
+.VR {
+  width : 150px;
+  height : 150px;
+  }
+
+.ROUL  {
+text-align: center;
+
+}
+
+.information {
+  text-overflow: clip;
+}
